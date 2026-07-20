@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B電卓 - サポート</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 24px 20px 64px;
+    line-height: 1.8; color: #222; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ddd; background: #111; }
+    .card { background: #1c1c1e !important; }
+  }
+  h1 { font-size: 1.6em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.15em; margin-top: 2em; border-bottom: 1px solid #8884; padding-bottom: 6px; }
+  .sub { color: #888; margin-top: 0; }
+  .card { background: #f5f5f7; border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
+  .q { font-weight: 600; }
+  a { color: #0a84ff; }
+  footer { margin-top: 48px; font-size: 0.85em; color: #888; }
+</style>
+</head>
+<body>
+<h1>B電卓 - 秘密のアルバム</h1>
+<p class="sub">サポートページ</p>
+
+<p>「B電卓」は、電卓として使えるプライベートフォトアルバムアプリです。写真・動画はお使いの端末上で暗号化され、開発者を含む第三者は内容を見ることができません（ゼロ知識設計）。</p>
+
+<h2>よくある質問</h2>
+
+<div class="card">
+  <p class="q">Q. PINを忘れてしまいました。</p>
+  <p>初回設定時に表示された24語のリカバリーキーで復元できます。電卓画面の「AC」ボタンを長押しすると復元画面が開きます。<br>
+  <strong>PINとリカバリーキーの両方を紛失した場合、データを復元する方法はありません。</strong>これは暗号化仕様上の制限であり、開発者にも解除できません。</p>
+</div>
+
+<div class="card">
+  <p class="q">Q. アルバムの開き方がわかりません。</p>
+  <p>電卓画面で設定したPINを入力し「=」を押すと、アルバムが開きます。</p>
+</div>
+
+<div class="card">
+  <p class="q">Q. 機種変更するとデータはどうなりますか?</p>
+  <p>プレミアムプランのクラウドバックアップを有効にしている場合、新しい端末でリカバリーキーを入力すると復元できます。クラウドバックアップを使用していない場合、データは端末内にのみ保存されているため、端末のバックアップ（iCloudバックアップ等）から復元してください。</p>
+</div>
+
+<div class="card">
+  <p class="q">Q. 解約したいです。</p>
+  <p>サブスクリプションは iPhone の「設定」→ 自分の名前 →「サブスクリプション」からいつでも解約できます。解約後も無料版の機能はそのまま使えます。</p>
+</div>
+
+<div class="card">
+  <p class="q">Q. 写真は運営者に見られませんか?</p>
+  <p>見られません。写真・動画は端末上で暗号化（AES-256-GCM）されてから保存・送信され、復号に必要な鍵はお客様のPIN・リカバリーキーからのみ導出されます。運営者やサーバー管理者も内容を閲覧できません。</p>
+</div>
+
+<h2>お問い合わせ</h2>
+<p>ご質問・不具合のご報告は、以下のメールアドレスまでお願いします。</p>
+<p><a href="mailto:matsumotokazuya60@gmail.com">matsumotokazuya60@gmail.com</a></p>
+<p>通常2〜3営業日以内に返信いたします。</p>
+
+<footer>© 2026 Kazuya Matsumoto</footer>
+</body>
+</html>
